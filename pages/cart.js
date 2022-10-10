@@ -1,7 +1,7 @@
 import { useSession } from "next-auth/react";
 import Navbar from "../components/Navbar/Navbar";
 
-function cart() {
+function Cart() {
   const { data: session } = useSession();
   return (
     <>
@@ -11,4 +11,4 @@ function cart() {
   );
 }
 
-export default cart;
+export default Cart;
