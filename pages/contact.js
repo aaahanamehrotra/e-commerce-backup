@@ -11,11 +11,11 @@ function Contact() {
         <h1>Contact Us</h1>
         <div className={contactStyles.form}>
           <form>
-            <div class={contactStyles.inputGroup}>
+            <div className={contactStyles.inputGroup}>
               <label for="name">Name</label>
               <input type="text" name="name" id="name" placeholder="John Doe" />
             </div>
-            <div class={contactStyles.inputGroup}>
+            <div className={contactStyles.inputGroup}>
               <label for="email">Email</label>
               <input
                 type="email"
@@ -23,7 +23,7 @@ function Contact() {
                 placeholder="johndoe@gmail.com"
               />
             </div>
-            <div class={contactStyles.inputGroup}>
+            <div className={contactStyles.inputGroup}>
               <label for="textarea">Yours Message</label>
               <textarea
                 name="textarea"
@@ -32,7 +32,7 @@ function Contact() {
                 placeholder="Your message"
               ></textarea>
             </div>
-            <div class={contactStyles.inputGroup}>
+            <div className={contactStyles.inputGroup}>
               <button type="submit" className={contactStyles.button}>
                 Submit
               </button>
