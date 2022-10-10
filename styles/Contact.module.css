@@ -1,0 +1,76 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form {
+  max-width: 500px;
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+}
+
+.inputGroup {
+  margin: 30px 0;
+}
+
+.inputGroup > * {
+  display: block;
+}
+
+.inputGroup label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #d41713;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  margin: 7px 0;
+  width: 100%;
+  padding: 15px 0;
+  text-indent: 20px;
+  border: 2px solid #444;
+  border-radius: 2px;
+  color: #444444;
+}
+
+.inputGroup input[type="text"]:focus,
+.inputGroup input[type="text"]:active,
+.inputGroup input[type="email"]:focus,
+.inputGroup input[type="email"]:active,
+.inputGroup textarea:active
+.inputGroup textarea:focus-visible {
+  border-color: black;
+  outline: none;
+}
+
+.inputGroup:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.button[type="submit"] {
+  padding: 15px 20px;
+  background: #d41713;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.button[type="submit"]:focus,
+.button[type="submit"]:active {
+  outline: none;
+}
+
+.input-group textarea {
+  width: 499px;
+  height: 161px;
+  resize: none;
+}

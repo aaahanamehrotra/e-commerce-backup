@@ -1,0 +1,9 @@
+.products {
+  margin: 5%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

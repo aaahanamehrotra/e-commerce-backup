@@ -1,0 +1,121 @@
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5%;
+}
+
+.text {
+  width: 50%;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 600;
+  color: black;
+  margin: auto;
+}
+
+.about {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #4e4e4e;
+}
+
+.buttons {
+  margin-top: 10%;
+}
+
+.buttons a {
+  margin-inline: 1%;
+  padding: 1em 2em;
+  border-radius: 10px;
+  background: #d41713;
+  color: white;
+  transition: font-weight 500ms ease-in;
+}
+
+.buttons a:last-child {
+  border: 2px #d41713 solid;
+  background-color: transparent;
+  color: #d41713;
+}
+
+.buttons a:hover,
+.button a:focus {
+  font-weight: bold;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.products {
+  margin: 5%;
+  background-color: #faf7f7;
+  padding: 2.5%;
+  border-radius: 10px;
+}
+
+
+.pCards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.achievements {
+  background-color: #d41713;
+  box-shadow: 0 0 0 100vmax #d41713;
+  clip-path: inset(0 -100vmax);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.aTitle {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.aCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aCard {
+  display: flex;
+  flex-basis: 20em;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  background-color: white;
+  /* background-color: #d75350; */
+  border-top: 5px #760406 solid;
+  width: 12em;
+  height: 10em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: black;
+}
+
+.aValue {
+  font-size: 40px;
+  font-weight: 700;
+  color: #a74500;
+  margin-bottom: .5em;
+}
+
+.aName {
+  font-size: 25px;
+  font-weight: 600;
+}

@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5em;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links a {
+  margin-inline: 2.5em;
+  transition-property: font-weight border-bottom;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in;
+  cursor: pointer;
+  color: #4e4e4e;
+}
+
+.links a:hover,
+.links a:focus {
+  font-weight: 600;
+  color: #d41713;
+  border-bottom: 2px #d41713 solid;
+}
+
+.icon {
+  cursor: pointer;
+  margin-inline: 1em;
+  transition: 500ms ease-in;
+  transition-property: color font-size;
+}
+
+.icon:hover {
+  font-size: 20px;
+  color: #d41713;
+}
