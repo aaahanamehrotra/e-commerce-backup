@@ -5,7 +5,7 @@ import ProductCard from "../../components/Product/ProductCard";
 import { useSession } from "next-auth/react";
 import Navbar from "../../components/Navbar/Navbar";
 
-function products() {
+function Products() {
   const { data: session } = useSession;
   return (
     <>
@@ -21,4 +21,4 @@ function products() {
   );
 }
 
-export default products;
+export default Products;

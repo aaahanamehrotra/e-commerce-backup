@@ -2,7 +2,7 @@ import contactStyles from "../styles/Contact.module.css";
 import { useSession } from "next-auth/react";
 import Navbar from "../components/Navbar/Navbar";
 
-function contact() {
+function Contact() {
   const { data: session } = useSession();
   return (
     <>
@@ -44,4 +44,4 @@ function contact() {
   );
 }
 
-export default contact;
+export default Contact;
