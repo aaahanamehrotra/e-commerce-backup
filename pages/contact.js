@@ -12,7 +12,7 @@ function Contact() {
         <div className={contactStyles.form}>
           <form>
             <div className={contactStyles.inputGroup}>
-              <label for="name">Name</label>
+              <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" placeholder="John Doe" />
             </div>
             <div className={contactStyles.inputGroup}>
@@ -24,7 +24,7 @@ function Contact() {
               />
             </div>
             <div className={contactStyles.inputGroup}>
-              <label for="textarea">Yours Message</label>
+              <label htmlFor="textarea">Yours Message</label>
               <textarea
                 name="textarea"
                 cols="30"
