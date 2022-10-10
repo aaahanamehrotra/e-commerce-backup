@@ -16,7 +16,7 @@ function Contact() {
               <input type="text" name="name" id="name" placeholder="John Doe" />
             </div>
             <div className={contactStyles.inputGroup}>
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
               <input
                 type="email"
                 name="email"
