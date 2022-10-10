@@ -20,7 +20,7 @@ function Search({ res }) {
           className={searchStyles.form}
           onSubmit={(e) => e.preventDefault()}
         >
-          <label for="search">Search</label>
+          <label htmlFor="search">Search</label>
           <input
             type="text"
             name="search"
