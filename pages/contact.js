@@ -1,9 +1,6 @@
 import contactStyles from "../styles/Contact.module.css";
-import { useSession } from "next-auth/react";
-import Navbar from "../components/Navbar/Navbar";
 
 function Contact() {
-  const { data: session } = useSession();
   return (
     <>
       <div className={contactStyles.contact}>

@@ -2,22 +2,47 @@ import productsStyles from "../../styles/Products.module.css";
 
 import ProductData from "../../data/ProductData";
 import ProductCard from "../../components/Product/ProductCard";
-import { useSession } from "next-auth/react";
-import Navbar from "../../components/Navbar/Navbar";
 
-function Products() {
-  const { data: session } = useSession;
+import { useState } from "react";
+
+function Search({ res }) {
+  const [search, setSearch] = useState("");
+  let data = res.filter((products) => {
+    return products.name.toLowerCase().includes(search.toLowerCase()) == true;
+  });
+
   return (
     <>
-
-      <div className={productsStyles.products}>
-        <h1>Our Products</h1>
+      <div className={productsStyles.search}>
+        <form
+          className={productsStyles.form}
+          onSubmit={(e) => e.preventDefault()}
+        >
+          <label htmlFor="search">Search</label>
+          <input
+            type="text"
+            name="search"
+            placeholder="search"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </form>
         <div className={productsStyles.cards}>
-          <ProductCard data={ProductData} />
+          <ProductCard data={data} />
         </div>
       </div>
     </>
   );
 }
 
-export default Products;
+export const getServerSideProps = (context) => {
+  const res = ProductData;
+
+  return {
+    props: {
+      res,
+    },
+  };
+};
+
+export default Search;

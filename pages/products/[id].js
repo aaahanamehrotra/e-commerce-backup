@@ -1,11 +1,8 @@
 import Image from "next/image";
 import productStyles from "../../styles/Product.module.css";
 import ProductData from "../../data/ProductData";
-import { useSession } from "next-auth/react";
-import Navbar from "../../components/Navbar/Navbar";
 
 function Product({ data }) {
-  const { sata: session } = useSession();
   return (
     <>
       <div key="1" className={productStyles.product}>

@@ -22,7 +22,6 @@ function Navbar({ session }) {
         <Link href="/">Home</Link>
         <Link href="/products/">Products</Link>
         <Link href="/contact">Contact</Link>
-        <Link href="/search">Search</Link>
       </div>
       <div className={[navStyles.links, navStyles.responsive].join(" ")}>
         {/* <Link href="/login"> */}
@@ -46,7 +45,6 @@ function Navbar({ session }) {
             <Link href="/">Home</Link>
             <Link href="/products/">Products</Link>
             <Link href="/contact">Contact</Link>
-            <Link href="/search">Search</Link>
           </div>
         </div>
         }
