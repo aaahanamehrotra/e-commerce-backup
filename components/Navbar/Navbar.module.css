@@ -35,14 +35,66 @@
   border-bottom: 2px #d41713 solid;
 }
 
-.icon {
-  cursor: pointer;
-  margin-inline: 1em;
-  transition: 500ms ease-in;
-  transition-property: color font-size;
+.sign {
+  border: none;
+  padding: 1.45em 3em;
+  border-radius: 10px;
+  background: #d41713;
+  color: white;
+  transition: font-weight 500ms ease-in;
 }
 
-.icon:hover {
-  font-size: 20px;
-  color: #d41713;
+.sign:hover,
+.sign:focus {
+  font-weight: bold;
+}
+
+.mobileNav {
+  display: none;
+}
+
+.mobileNav .hamburger {
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@media (max-width: 875px) {
+  .navbar {
+    padding: 1em;
+  }
+
+  .mobileNav {
+    display: flex;
+    z-index: 1;
+  }
+
+  .mobileItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7%;
+    right: 0;
+    width: 100%;
+    padding: 5% 0;
+    background-color: #d3d3d3e2;
+    box-shadow: 0 0 0 100vmax #d3d3d3e2;
+  }
+
+  .mobileItems * {
+    margin: 10px;
+  }
+
+  .linkItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .responsive {
+    display: none;
+  }
 }
