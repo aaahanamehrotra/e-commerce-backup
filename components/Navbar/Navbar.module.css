@@ -5,9 +5,11 @@
   padding: 2.5em;
 }
 
-.title {
+.title > a {
   font-size: 25px;
   font-weight: 700;
+  text-decoration: none;
+  color: black;
 }
 
 .links {
@@ -23,6 +25,7 @@
   transition-timing-function: ease-in;
   cursor: pointer;
   color: #4e4e4e;
+  text-decoration: none;
 }
 
 .links a:hover,

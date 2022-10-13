@@ -26,10 +26,6 @@ function Navbar({ session }) {
           {/* <FontAwesomeIcon icon={search} className={navStyles.icon} /> */}
           Search
         </Link>
-        <Link href="/cart">
-          {/* <FontAwesomeIcon icon={faBagShopping} className={navStyles.icon} /> */}
-          Products
-        </Link>
         {/* <Link href="/login"> */}
         {/* <FontAwesomeIcon icon={faUser} className={navStyles.icon} /> */}
         {/* Sign In */}

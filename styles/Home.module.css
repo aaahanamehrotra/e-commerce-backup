@@ -35,6 +35,7 @@
   background: #d41713;
   color: white;
   transition: font-weight 500ms ease-in;
+  text-decoration: none;
 }
 
 .buttons a:last-child {
