@@ -16,7 +16,7 @@ const AchievementsData = [
     value: totalProducts,
   },
   {
-    name: "Happy Customer",
+    name: "Happy Customers",
     value: "5k",
   },
 ];
