@@ -26,11 +26,15 @@
 
 .buttons {
   margin-top: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.buttons a {
+.sign {
   margin-inline: 1%;
-  padding: 1em 2em;
+  border: none;
+  padding: 1.45em 3em;
   border-radius: 10px;
   background: #d41713;
   color: white;
@@ -42,11 +46,19 @@
   border: 2px #d41713 solid;
   background-color: transparent;
   color: #d41713;
+  margin-inline: 1%;
+  padding: 1em 2em;
+  border-radius: 10px;
+  transition: font-weight 500ms ease-in;
+  text-decoration: none;
 }
 
 .buttons a:hover,
-.button a:focus {
+.sign:hover,
+.button a:focus,
+.sign:focus {
   font-weight: bold;
+  outline: none;
 }
 
 .img {

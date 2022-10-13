@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { signIn } from "next-auth/react";
-import { signOut } from "next-auth/react";
+import { signIn, signOut } from "next-auth/react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import {
 //   faBagShopping,

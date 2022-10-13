@@ -8,7 +8,6 @@ function Product({ data }) {
   const { sata: session } = useSession();
   return (
     <>
-      <Navbar />
       <div key="1" className={productStyles.product}>
         <Image
           src={data.img}

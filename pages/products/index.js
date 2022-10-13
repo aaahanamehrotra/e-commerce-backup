@@ -9,7 +9,6 @@ function Products() {
   const { data: session } = useSession;
   return (
     <>
-      <Navbar session={session} />
 
       <div className={productsStyles.products}>
         <h1>Our Products</h1>

@@ -1,18 +1,20 @@
-import Image from "next/image";
-import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react";
-import homeStyles from "../styles/Home.module.css";
-
+import Dashboard from "../components/dashboard";
+import Singup from "../components/singup";
+import Navbar from "../components/Navbar/Navbar";
 import ProductCard from "../components/Product/ProductCard";
 import ProductData from "../data/ProductData";
-import AchievementData from "../data/AchievementsData";
+import homeStyles from "../styles/Home.module.css";
+import Link from "next/link";
+import AchievementsData from "../data/AchievementsData";
+import Image from "next/image";
 
-export default function Home() {
+export default function Component() {
   const { data: session } = useSession();
-  const data = [];
+  const productdata = [];
 
   for (let i = 0; i <= 3; i++) {
-    data.push(ProductData[i]);
+    productdata.push(ProductData[i]);
   }
 
   const num = (min, max) => {
@@ -21,15 +23,8 @@ export default function Home() {
 
   return (
     <>
-      <div>
-        {session ? (
-          <button onClick={() => signOut()}>Sign out</button>
-        ) : (
-          <button onClick={() => signIn()} type="submit">
-            Sign in
-          </button>
-        )}
-      </div>
+      <Navbar session={session} />
+
       <div className={homeStyles.intro}>
         <div className={homeStyles.text}>
           <h1 className={homeStyles.title}>Lorem Ipsum</h1>
@@ -54,7 +49,7 @@ export default function Home() {
       <div className={homeStyles.achievements}>
         <h1 className={homeStyles.aTitle}>Achievements</h1>
         <div className={homeStyles.aCards}>
-          {AchievementData.map((data) => (
+          {AchievementsData.map((data) => (
             <div key="1" className={homeStyles.aCard}>
               <div className={homeStyles.aValue}>{data.value}</div>
               <div className={homeStyles.aName}>{data.name}</div>
@@ -65,7 +60,7 @@ export default function Home() {
       <div className={homeStyles.products}>
         <h1 className={homeStyles.pTitle}>Popular Products</h1>
         <div className={homeStyles.pCards}>
-          <ProductCard data={data} />
+          <ProductCard data={productdata} />
         </div>
       </div>
     </>

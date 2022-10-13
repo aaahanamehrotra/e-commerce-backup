@@ -14,7 +14,6 @@ function Search({ res }) {
 
   return (
     <>
-      <Navbar session={session} />
       <div className={searchStyles.search}>
         <form
           className={searchStyles.form}

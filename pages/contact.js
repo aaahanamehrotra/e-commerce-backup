@@ -6,7 +6,6 @@ function Contact() {
   const { data: session } = useSession();
   return (
     <>
-      <Navbar session={session} />
       <div className={contactStyles.contact}>
         <h1>Contact Us</h1>
         <div className={contactStyles.form}>
