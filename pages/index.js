@@ -62,7 +62,7 @@ export default function Home() {
           {AchievementData.map((data) => (
             <div key="1" className={homeStyles.aCard}>
               <div className={homeStyles.aValue}>{data.value}</div>
-              npm <div className={homeStyles.aName}>{data.name}</div>
+              <div className={homeStyles.aName}>{data.name}</div>
             </div>
           ))}
         </div>
