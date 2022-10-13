@@ -14,9 +14,9 @@ function Product({ data }) {
           className={productStyles.img}
         />
         <div className={productStyles.info}>
-          <h1>{data.name}</h1>
-          <h2>{data.description}</h2>
-          <h3>{data.largeDescription}</h3>
+          <h1 className={productStyles.h1}>{data.name}</h1>
+          <h2 className={productStyles.h2}>{data.description}</h2>
+          <h3 className={productStyles.h3}>{data.largeDescription}</h3>
           <hr />
           <h4>Price: {data.price}</h4>
           <h4>Stock: {data.stock}</h4>

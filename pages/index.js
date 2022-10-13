@@ -31,13 +31,21 @@ export default function Home() {
           </h2>
           <div className={homeStyles.buttons}>
             {session ? (
-              <button onClick={() => signOut()} className={homeStyles.sign}>Sign out</button>
+              <button onClick={() => signOut()} className={homeStyles.sign}>
+                Sign out
+              </button>
             ) : (
-              <button onClick={() => signIn()} type="submit" className={homeStyles.sign}>
+              <button
+                onClick={() => signIn()}
+                type="submit"
+                className={homeStyles.sign}
+              >
                 Sign in
               </button>
             )}
-            <Link href="/products/">Products</Link>
+            <Link href="/products/" className={homeStyles.productsbutton}>
+              Products
+            </Link>
           </div>
         </div>
         <Image
