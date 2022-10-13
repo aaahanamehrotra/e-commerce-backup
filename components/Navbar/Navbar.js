@@ -45,6 +45,13 @@ function Navbar({ session }) {
             <Link href="/">Home</Link>
             <Link href="/products/">Products</Link>
             <Link href="/contact">Contact</Link>
+            {session ? (
+              <button onClick={() => signOut()} className={navStyles.sign}>Sign out</button>
+            ) : (
+              <button onClick={() => signIn()} type="submit" className={navStyles.sign}>
+                Sign in
+              </button>
+            )}
           </div>
         </div>
         }
