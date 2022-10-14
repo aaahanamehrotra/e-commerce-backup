@@ -26,7 +26,7 @@ function Navbar({ session }) {
         {/* </Link> */}
         {session ? (
           <>
-            <Link href="/profile">Contact</Link>
+            <Link href="/profile">Profile</Link>
             <button onClick={() => signOut()} className={navStyles.sign}>
               Sign out
             </button>
