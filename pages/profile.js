@@ -1,4 +1,4 @@
-import { useSession, signIn, signOut } from "next-auth/react";
+import { useSession } from "next-auth/react";
 
 import profileStyles from '../styles/Profile.module.css'
 
@@ -7,15 +7,21 @@ function Profile() {
   return (
     <>
       <div className={profileStyles.container}>
-        <div className={profileStyles.title}>Profile</div>
-          <div className={profileStyles.profilegrp}>
-            <div className={profileStyles.category}>Name</div>
-            <div className={profileStyles.value}>{session.user.name}</div>
+        <h1>Profile</h1>
+        { session ? (
+          <div className={profileStyles.section}>
+            <div className={profileStyles.profilegrp}>
+              <div>Name</div>
+              <div>{session.user.name}</div>
+            </div>
+            <div className={profileStyles.profilegrp}>
+              <div>Email</div>
+              <div>{session.user.email}</div>
+            </div>
           </div>
-          <div className={profileStyles.profilegrp}>
-            <div className={profileStyles.category}>Email</div>
-            <div className={profileStyles.value}>{session.user.email}</div>
-          </div>
+        ) : (
+          <h3>Pls sign in first</h3>
+        )}
       </div>
     </>
   )

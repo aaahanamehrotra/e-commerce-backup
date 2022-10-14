@@ -1,3 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section {
+  border: 2px #d41713 solid;
+  padding: 2.5em 5em;
+}
+
 .profile {
   border: 1px solid white;
   width: 300px;
@@ -7,4 +19,23 @@
 
 .profilegrp {
   margin-block: 20px;
+}
+
+.sign {
+  border: 2px #d41713 solid;
+
+  border-radius: 4px;
+  background: #d41713;
+  color: white;
+  transition: font-weight 500ms ease-in;
+  cursor: pointer;
+  width: 120px;
+  text-align: center;
+  font-size: 16px;
+  height: 40px;
+}
+
+.sign:hover,
+.sign:focus {
+  font-weight: bold;
 }
