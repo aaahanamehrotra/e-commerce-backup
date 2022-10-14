@@ -1,3 +1,14 @@
+# Decagon: webtales
+## Category: 2
+## By DPSRKP
+
+https://user-images.githubusercontent.com/106944474/195849411-1037cdb1-3e3c-4fd6-9a33-13b6e2a7b581.mp4
+![image](https://user-images.githubusercontent.com/106944474/195850027-f9d4f499-bebd-4422-8535-2562a618d0ce.png)
+![image](https://user-images.githubusercontent.com/106944474/195850059-9bc8c647-00a0-4b14-9bde-5b522962583d.png)
+![image](https://user-images.githubusercontent.com/106944474/195850380-bf1cc0cb-c766-435e-8826-ca4a16e8885a.png)
+![image](https://user-images.githubusercontent.com/106944474/195850120-3741af0c-e276-4919-81ae-accf93bf15ab.png)
+![image](https://user-images.githubusercontent.com/106944474/195849916-c4be27c4-8395-4aca-b99e-74962c06104d.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
