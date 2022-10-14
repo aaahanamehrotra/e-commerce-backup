@@ -1,14 +1,19 @@
 # Decagon: webtales
-## Category: 2
-## By DPSRKP
 
-https://user-images.githubusercontent.com/106944474/195849411-1037cdb1-3e3c-4fd6-9a33-13b6e2a7b581.mp4
+[screen-capture (5).webm](https://user-images.githubusercontent.com/83857184/195878233-42ecc135-ed5d-44c8-b3d8-7004ae72a496.webm)
 
-![image](https://user-images.githubusercontent.com/106944474/195850027-f9d4f499-bebd-4422-8535-2562a618d0ce.png)
-![image](https://user-images.githubusercontent.com/106944474/195850059-9bc8c647-00a0-4b14-9bde-5b522962583d.png)
-![image](https://user-images.githubusercontent.com/106944474/195850380-bf1cc0cb-c766-435e-8826-ca4a16e8885a.png)
-![image](https://user-images.githubusercontent.com/106944474/195850120-3741af0c-e276-4919-81ae-accf93bf15ab.png)
-![image](https://user-images.githubusercontent.com/106944474/195849916-c4be27c4-8395-4aca-b99e-74962c06104d.png)
+![screencapture-e-commerce-backup-aaahanamehrotra-vercel-app-2022-10-14-18_26_25](https://user-images.githubusercontent.com/83857184/195878146-ad8e967d-8825-4c83-a477-304694e724dc.png)
+
+![screencapture-e-commerce-backup-aaahanamehrotra-vercel-app-products-2022-10-14-18_27_14](https://user-images.githubusercontent.com/83857184/195878128-e77710b5-cc14-417a-8d4a-7c54776247fc.png)
+
+![screencapture-e-commerce-backup-aaahanamehrotra-vercel-app-profile-2022-10-14-18_19_19](https://user-images.githubusercontent.com/83857184/195878140-33adae10-7025-435c-a904-811377e28365.png)
+
+![screencapture-e-commerce-backup-aaahanamehrotra-vercel-app-profile-2022-10-14-18_28_09](https://user-images.githubusercontent.com/83857184/195878143-80194375-7781-4e61-a34e-3440e8f4542b.png)
+
+![screencapture-e-commerce-backup-aaahanamehrotra-vercel-app-contact-2022-10-14-18_27_38](https://user-images.githubusercontent.com/83857184/195878152-940cd3d9-6bc7-4412-aa7a-655d549b6061.png)
+
+
+#Category: 2
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
