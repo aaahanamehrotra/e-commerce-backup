@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Inter";
 }
 
 body {
@@ -29,4 +28,8 @@ a:focus {
     color: black;
     background: white;
   }
+}
+
+h1 {
+  text-align: center;
 }

@@ -5,7 +5,7 @@ import ProductData from "../../data/ProductData";
 function Product({ data }) {
   return (
     <>
-      <div key="1" className={productStyles.product}>
+      <div key={data.id} className={productStyles.product}>
         <Image
           src={data.img}
           width="350"

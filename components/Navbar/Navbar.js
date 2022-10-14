@@ -2,7 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { signIn, signOut } from "next-auth/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import navStyles from "./Navbar.module.css";
 
@@ -25,9 +25,12 @@ function Navbar({ session }) {
         {/* Sign In */}
         {/* </Link> */}
         {session ? (
-          <button onClick={() => signOut()} className={navStyles.sign}>
-            Sign out
-          </button>
+          <>
+            <Link href="/profile">Contact</Link>
+            <button onClick={() => signOut()} className={navStyles.sign}>
+              Sign out
+            </button>
+          </>
         ) : (
           <button
             onClick={() => signIn()}

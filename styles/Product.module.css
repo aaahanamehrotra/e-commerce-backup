@@ -2,11 +2,15 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 5% 0;
+  margin: 2% 0;
 }
 
 .img {
-  border-radius: 10px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .info {
@@ -20,8 +24,8 @@
   cursor: pointer;
   color: #d41713;
   border: 2px #d41713 solid;
-  text-decoration: none;
 }
+
 .button:hover {
   background-color: #d41713;
   color: white;

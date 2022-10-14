@@ -3,9 +3,9 @@ const ProductData = [
     id: 0,
     name: "Shange Chi",
     img: "/1.jpeg",
-    description: "Shange Chi legend of ten rings",
+    description: "Legend of ten rings",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },
@@ -15,7 +15,7 @@ const ProductData = [
     img: "/2.jpeg",
     description: "Spider Man No Way Home",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },
@@ -25,7 +25,7 @@ const ProductData = [
     img: "/3.jpeg",
     description: "Thor love and thunder",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },
@@ -35,7 +35,7 @@ const ProductData = [
     img: "/4.jpeg",
     description: "multiverse of madness",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },
@@ -45,7 +45,7 @@ const ProductData = [
     img: "/5.jpeg",
     description: "Captain America action figure",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },
@@ -55,7 +55,7 @@ const ProductData = [
     img: "/6.jpeg",
     description: "Spider Man action figure",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },
@@ -65,7 +65,7 @@ const ProductData = [
     img: "/7.jpeg",
     description: "Docter Strange action figure",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },
@@ -75,7 +75,7 @@ const ProductData = [
     img: "/8.jpeg",
     description: "Iron Man action figure",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },
@@ -85,7 +85,7 @@ const ProductData = [
     img: "/9.jpeg",
     description: "Hawleye action figure",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },
@@ -95,7 +95,7 @@ const ProductData = [
     img: "/10.jpeg",
     description: "Falcon action figure",
     largeDescription:
-      "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     price: "$100",
     stock: 10,
   },

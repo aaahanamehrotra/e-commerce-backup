@@ -1,8 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  width: 40%;
+}
+.left img {
+  border-radius: 10px;
+}
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 60%;
 }
 .form {
   max-width: 500px;
@@ -42,8 +55,7 @@
 .inputGroup input[type="text"]:active,
 .inputGroup input[type="email"]:focus,
 .inputGroup input[type="email"]:active,
-.inputGroup textarea:active
-.inputGroup textarea:focus-visible {
+.inputGroup textarea:active .inputGroup textarea:focus-visible {
   border-color: black;
   outline: none;
 }
@@ -73,4 +85,20 @@
   width: 499px;
   height: 161px;
   resize: none;
+}
+
+@media (max-width: 875px) {
+  .container {
+    flex-direction: column;
+  }
+  .contact,
+  .left {
+    width: 100%;
+  }
+}
+
+@media (max-width: 875px) and (min-width: 700px) {
+  .left {
+    width: 80%;
+  }
 }

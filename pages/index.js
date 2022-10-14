@@ -60,7 +60,7 @@ export default function Home() {
         <h1 className={homeStyles.aTitle}>Achievements</h1>
         <div className={homeStyles.aCards}>
           {AchievementData.map((data) => (
-            <div key="1" className={homeStyles.aCard}>
+            <div key={data.id} className={homeStyles.aCard}>
               <div className={homeStyles.aValue}>{data.value}</div>
               <div className={homeStyles.aName}>{data.name}</div>
             </div>
